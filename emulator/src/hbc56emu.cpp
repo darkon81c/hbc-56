@@ -508,7 +508,7 @@ static void aboutDialog(bool* aboutOpen)
 {
   if (ImGui::Begin("About HBC-56 Emulator", aboutOpen, ImGuiWindowFlags_AlwaysAutoResize | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoDocking | ImGuiWindowFlags_NoCollapse))
   {
-    ImGui::Text("HBC-56 Emulator v1.1\n\n");
+    ImGui::Text("Fork of HBC-56 Emulator v1.1\n\n");
     ImGui::Text("(C) %s Troy Schrapel\n\n", &__DATE__[7]);
     ImGui::Separator();
     ImGui::Text("HBC-56 Emulator is licensed under the MIT License,\nsee LICENSE for more information.\n\n");
